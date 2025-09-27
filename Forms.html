@@ -19,9 +19,14 @@
     <button>Our <b>first</b> Button</button>
     <form>
         <h2>Register</h2>
-        <button type="button">Click Me</button>
-        <input type="email" placeholder="Email" name="email">   
+        <!--<label for="email">Enter Email</label>-->
+        <label for="email">Enter Email</label>
+            <input type="email" placeholder="Email" name="email" id="email">   
+        <label>
+            Enter Password
         <input type="password" name="password" placeholder="Password">
+        </label>
+        <br>
         <input type="checkbox" name="TOS agree"> I agree to the terms of service  
         <p> Select Shirt Size</p>
         <input type="radio" name="shirt-size" value="XS"> XS <br>
@@ -47,8 +52,14 @@
             <option value="cat">Cat</option>
             <option value="hamster">Hamster</option>
         </select>
-
-
+        <br>
+        Please draft an Essay:
+        <textarea name="essay"></textarea>
+    </form>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        <label>This wont work
+    <input type="file">
+    </label>
 
 
 
@@ -58,9 +69,5 @@
 
     </form>
 
-
-
-
-    </form>
-</body>
+    </body>
 </html>
