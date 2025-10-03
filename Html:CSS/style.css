@@ -1,19 +1,27 @@
-img {
+img { 
     width: 300px;
 }
 h1 {
     color: blue;
 }
-/* * selects everything */
-/* add id="" to a section/body/p/image to to style in css sheet
+ * selects everything */
+ add id="" to a section/body/p/image to to style in css sheet
 to use id you use 
 #(name of id) {
     color: red;
-} */
+} 
 .about-me {
     color: red;
 }
 p + h2 {
     color: purple;
 }
-/* p + h2 means any h2 that directly follows a p */
+ p + h2 means any h2 that directly follows a p */
+section > h2 {
+    color: green;
+}
+ /* section > h2 means any h2 that is a direct child of a section */
+/* you can use multiple selectors by separating them with commas */
+h2, p, body, .about-me {
+    font-family: Arial, sans-serif;
+}
