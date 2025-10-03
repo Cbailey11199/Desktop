@@ -1,0 +1,35 @@
+h1 {
+    color: midnightblue;
+    text-align: center;
+    font-weight: 100;
+    font-size: 4em;
+    /* em is size compared to parent body 
+        rem is relative to root element */
+        font-family: Arial, sans-serif;
+}
+body {
+    background-color: purple;
+}
+p {
+    background-color: lightgrey;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-indent: 50px; 
+    text-decoration-line: underline;
+    text-shadow: 20px 20px 20px hsl(244, 77%, 38%);
+    /* another popular font size value is vw or vh they scale up and down depending on the viewport */
+}
+/* this is how you comment in css */
+h2 {
+    color: rgb(255,255,90)
+}
+ h3 {
+    color: rgba(255,255,90,.3)
+}
+/* rgba stands for red, green, blue, and alpha (opacity) */
+/* you can also use hex decimal color: #ffff5a 
+    you can also use HSL (hue, saturation, lightness) color: hsl(60, 100%, 50%) */
+    
