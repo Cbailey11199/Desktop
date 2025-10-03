@@ -13,3 +13,7 @@ to use id you use
 .about-me {
     color: red;
 }
+p + h2 {
+    color: purple;
+}
+/* p + h2 means any h2 that directly follows a p */
