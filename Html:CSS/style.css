@@ -28,6 +28,12 @@ h2, p, body, .about-me {
 a:hover {
     color: orange;
 }
-input:focus {
-    background-color: pink;
+input:focus::placeholder {
+    color: pink;
+}
+p:first-of-type {
+    color: magenta;
+}
+.about-me p::first-letter {
+    font-size: 200%;
 }

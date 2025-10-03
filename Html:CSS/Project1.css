@@ -1,0 +1,8 @@
+body, input {
+    font-family: Arial, sans-serif;
+    background-color: #c8a3e3;
+    color: hsl(54, 100%, 50%);
+}
+a {
+    text-decoration: none;
+}
