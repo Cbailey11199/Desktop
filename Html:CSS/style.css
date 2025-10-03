@@ -1,0 +1,15 @@
+img {
+    width: 300px;
+}
+h1 {
+    color: blue;
+}
+/* * selects everything */
+/* add id="" to a section/body/p/image to to style in css sheet
+to use id you use 
+#(name of id) {
+    color: red;
+} */
+.about-me {
+    color: red;
+}
