@@ -4,7 +4,7 @@ img {
 h1 {
     color: blue;
 }
- * selects everything */
+ /* * selects everything 
  add id="" to a section/body/p/image to to style in css sheet
 to use id you use 
 #(name of id) {
@@ -24,4 +24,10 @@ section > h2 {
 /* you can use multiple selectors by separating them with commas */
 h2, p, body, .about-me {
     font-family: Arial, sans-serif;
+}
+a:hover {
+    color: orange;
+}
+input:focus {
+    background-color: pink;
 }
