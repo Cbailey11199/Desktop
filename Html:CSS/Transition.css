@@ -1,0 +1,28 @@
+h1 {
+    font-size: 2em;
+    color: blue;
+    transition: color 1s, font-size 3s;
+}
+h1:hover {
+    color: seagreen;
+    font-size: 4em;
+}
+button:hover {
+    transform: translateX(800px);
+    transition: transform 2s linear;
+}
+a {
+    display: inline-block;
+    padding: 1em;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: 3px solid blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: blueviolet;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+a:hover {
+    color: white;
+    background-color: cadetblue;
+}
