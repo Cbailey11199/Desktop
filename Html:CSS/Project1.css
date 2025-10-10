@@ -17,8 +17,14 @@ p {
 h2 {
     color: hsl(182, 98%, 51%);
     font-size: 2rem;
+    position: relative;
+    left: 35%;
 }
 h3 {
     color: hsl(182, 98%, 51%);
     font-size: 1.5rem;
+}
+#contact {
+    position: relative;
+    left: 35%;
 }
