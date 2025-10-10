@@ -30,3 +30,19 @@ nav a {
     color: white;
     font-size: 2em;
 }
+body {
+    background-color: lightpink;
+}
+#relative {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px){
+    #relative {
+        width: 80%;
+    }
+    body {
+        background-color: lightseagreen;
+    }
+}
