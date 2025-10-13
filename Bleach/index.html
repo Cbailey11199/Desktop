@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bleach: The Soul Society</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dynamic background effect -->
+    <div class="background-container">
+        <div class="background-fade"></div>
+    </div>
+
+    <!-- Main landing page -->
+    <section id="home" class="page active">
+        <header class="main-header">
+            <h1 class="logo glitch">BLEACH</h1>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-item">Home</a>
+                <a href="#characters" class="nav-item">Characters</a>
+                <a href="#squads" class="nav-item">Squads</a>
+            </nav>
+        </header>
+
+        <main class="content-area">
+            <h2 class="title-text typing-effect">Welcome to the Soul Society</h2>
+            <p class="subtitle-text fade-in">Unleash your inner Shinigami.</p>
+            <button class="cta-button fade-in-up" onclick="changePage('characters')">Explore Characters</button>
+        </main>
+    </section>
+
+    <!-- Character gallery page -->
+    <section id="characters" class="page">
+        <header class="sub-header">
+            <a href="#home" class="back-link" onclick="changePage('home')">← Back to Home</a>
+        </header>
+        <div class="character-gallery">
+            <div class="character-card" data-character="ichigo">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="ichigo.png" alt="Ichigo Kurosaki">
+                        <h3>Ichigo Kurosaki</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Substitute Shinigami with immense spiritual power.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card" data-character="rukia">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="rukia.png" alt="Rukia Kuchiki">
+                        <h3>Rukia Kuchiki</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>A Shinigami of the 13th Division who gives Ichigo his powers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card" data-character="aizen">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="aizen.png" alt="Sōsuke Aizen">
+                        <h3>Sōsuke Aizen</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>The former captain of the 5th Division, a master manipulator.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
-let partyLocation = "GARDEN"; // String
-let shiftValue = 3; // Number
-let encryptedMessage = ""; // String
-let decryptedMessage = ""; // String
-let isPartySafe = false; // Boolean
+let partyLocation = "GARDEN"; 
+let shiftValue = 3; 
+let encryptedMessage = ""; 
+let decryptedMessage = ""; 
+let isPartySafe = false; 
