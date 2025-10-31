@@ -52,5 +52,18 @@ let allFoods = fruits.concat(veggies, meats);
 let goodFruits = allFoods.slice(0, 4); //with splice you have to go 1 over the value you want so if corn is at value 3 you have to put 4
 //slice also can make a copy with just .slice()
 
+//const cannot be changed/ most people use const with arrays/you can change the values inside of an array just not the array
 
+//nested arrays
+
+const animalPairs = [
+    [`doe`, `buck`],
+    [`ewe`, `ram`],
+    [`peahen`, `peacock`]
+];
+const board = [
+    [`O`, null, `X`],
+    [null, `X`, `O`],
+    [`X`, `O`, null]
+]
 
